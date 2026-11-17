@@ -1,0 +1,32 @@
+[
+  {
+    "type": "fee_request",
+    "pattern": "(processing\\s*fee|registration\\s*charge|pay\\s*₹?\\s*\\d+|fee\\s*of\\s*₹|advance\\s*deposit|upi\\s*transfer)",
+    "weight": 40,
+    "explanationKey": "Asks for an upfront processing fee or money deposit. Official government welfare schemes are ALWAYS 100% free to apply."
+  },
+  {
+    "type": "otp_demand",
+    "pattern": "(share\\s*otp|send\\s*otp|enter\\s*pin|cvv|aadhaar\\s*otp|bank\\s*password|login\\s*credentials)",
+    "weight": 35,
+    "explanationKey": "Demands an OTP, bank PIN, or secret credentials. Government portals and officials will NEVER ask you to reveal an OTP."
+  },
+  {
+    "type": "fake_domain",
+    "pattern": "(bit\\.ly|tinyurl\\.com|t\\.co|is\\.gd|\\.xyz|\\.top|\\.click|\\.club|\\.online|\\.site|pmkisan-gov|sevasindhu-claim)",
+    "weight": 30,
+    "explanationKey": "Uses an unofficial or shortened web link. Genuine Indian government web portals strictly end in '.gov.in' or '.nic.in'."
+  },
+  {
+    "type": "urgency",
+    "pattern": "(urgent|immediately|within\\s*\\d+\\s*(hours|hrs|minutes)|account\\s*suspended|service\\s*blocked|last\\s*chance)",
+    "weight": 20,
+    "explanationKey": "Creates artificial panic and urgency to force the citizen into acting without verification."
+  },
+  {
+    "type": "lottery_promise",
+    "pattern": "(won\\s*lottery|selected\\s*for\\s*cash\\s*prize|lucky\\s*draw|unclaimed\\s*money\\s*waiting)",
+    "weight": 25,
+    "explanationKey": "Promises unexpected lottery or prize payouts disguised as welfare benefits."
+  }
+]

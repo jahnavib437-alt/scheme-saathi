@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.myscheme.gov.in",
+    "name": "myScheme National Platform",
+    "type": "central_portal",
+    "status": "active"
+  },
+  {
+    "url": "https://sevasindhu.karnataka.gov.in",
+    "name": "Karnataka Seva Sindhu Portal",
+    "type": "state_portal",
+    "status": "active"
+  },
+  {
+    "url": "https://scholarships.gov.in",
+    "name": "National Scholarship Portal (NSP)",
+    "type": "central_portal",
+    "status": "active"
+  },
+  {
+    "url": "https://pmkisan.gov.in",
+    "name": "PM-KISAN Official Portal",
+    "type": "ministry",
+    "status": "active"
+  },
+  {
+    "url": "https://pmjay.gov.in",
+    "name": "Ayushman Bharat PM-JAY Portal",
+    "type": "ministry",
+    "status": "active"
+  },
+  {
+    "url": "https://pmayg.nic.in",
+    "name": "Pradhan Mantri Awas Yojana Gramin (PMAY-G)",
+    "type": "ministry",
+    "status": "active"
+  },
+  {
+    "url": "https://wcd.karnataka.gov.in",
+    "name": "Karnataka Women & Child Development Department",
+    "type": "state_portal",
+    "status": "active"
+  },
+  {
+    "url": "https://sw.karnataka.gov.in",
+    "name": "Karnataka Social Welfare Department",
+    "type": "state_portal",
+    "status": "active"
+  },
+  {
+    "url": "https://pmmodiyojana.in/karnataka-sandhya-suraksha-yojana",
+    "name": "Sandhya Suraksha Pension Guidelines",
+    "type": "scheme_page",
+    "status": "active"
+  },
+  {
+    "url": "https://kswfc.karnataka.gov.in",
+    "name": "Karnataka State Minorities Development Corporation",
+    "type": "state_portal",
+    "status": "active"
+  }
+]

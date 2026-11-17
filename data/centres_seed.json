@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Tumakuru City Karnataka-One Centre",
+    "type": "SevaKendra",
+    "address": "Mini Vidhana Soudha, B.H. Road, Tumakuru, Karnataka 572101",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [77.1011, 13.3409] },
+    "phone": "0816-2278190",
+    "hours": "8:00 AM - 7:00 PM",
+    "verified": true
+  },
+  {
+    "name": "Grama One Kendra - Kunigal Rural",
+    "type": "GramaOne",
+    "address": "Grama Panchayat Complex, Kunigal Main Road, Tumakuru 572130",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [77.0264, 13.0238] },
+    "phone": "0816-241255",
+    "hours": "9:00 AM - 5:30 PM",
+    "verified": true
+  },
+  {
+    "name": "CSC Citizen Service Centre - Gubbi",
+    "type": "CSC",
+    "address": "Opposite KSRTC Bus Stand, Gubbi Town, Tumakuru 572216",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [76.9427, 13.3117] },
+    "phone": "9845123490",
+    "hours": "9:30 AM - 6:00 PM",
+    "verified": true
+  },
+  {
+    "name": "Grama One Kendra - Tiptur Central",
+    "type": "GramaOne",
+    "address": "Taluk Office Road, Tiptur, Tumakuru 572201",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [76.4789, 13.2572] },
+    "phone": "08135-251420",
+    "hours": "9:00 AM - 6:00 PM",
+    "verified": true
+  },
+  {
+    "name": "Madhugiri Taluk Seva Sindhu Kendra",
+    "type": "SevaKendra",
+    "address": "Fort View Complex, Court Road, Madhugiri, Tumakuru 572132",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [77.2089, 13.6628] },
+    "phone": "08137-282310",
+    "hours": "9:00 AM - 5:30 PM",
+    "verified": true
+  },
+  {
+    "name": "Sira Grama One Centre",
+    "type": "GramaOne",
+    "address": "Near Municipal Council, NH48, Sira, Tumakuru 572137",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [76.9075, 13.7439] },
+    "phone": "08139-275110",
+    "hours": "9:30 AM - 6:00 PM",
+    "verified": true
+  },
+  {
+    "name": "Pavagada Border Seva Kendra",
+    "type": "SevaKendra",
+    "address": "Taluk Panchayat Office, Pavagada, Tumakuru 561202",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [77.2811, 14.1022] },
+    "phone": "08136-244220",
+    "hours": "9:00 AM - 5:00 PM",
+    "verified": true
+  },
+  {
+    "name": "Turuvekere Seva Kendra",
+    "type": "CSC",
+    "address": "Mayasandra Road, Turuvekere, Tumakuru 572227",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [76.6667, 13.1600] },
+    "phone": "08139-287234",
+    "hours": "9:00 AM - 5:30 PM",
+    "verified": true
+  },
+  {
+    "name": "Chikkanayakanahalli Grama One",
+    "type": "GramaOne",
+    "address": "Near Post Office, C.N. Halli, Tumakuru 572214",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [76.6189, 13.4189] },
+    "phone": "08133-267100",
+    "hours": "9:00 AM - 6:00 PM",
+    "verified": true
+  },
+  {
+    "name": "Koratagere Seva Sindhu Helpdesk",
+    "type": "SevaKendra",
+    "address": "Main Bazar Road, Koratagere, Tumakuru 572129",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [77.2367, 13.5234] },
+    "phone": "08138-232410",
+    "hours": "9:00 AM - 5:30 PM",
+    "verified": true
+  },
+  {
+    "name": "Head Post Office Aadhaar & DBT Seva Desk",
+    "type": "PostOffice",
+    "address": "Ashoka Road, Gandhi Nagar, Tumakuru 572102",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [77.1089, 13.3456] },
+    "phone": "0816-2272200",
+    "hours": "9:00 AM - 4:00 PM",
+    "verified": true
+  },
+  {
+    "name": "Canara Bank Financial Inclusion & DBT Seva Kendra",
+    "type": "Bank",
+    "address": "MG Road, Tumakuru 572101",
+    "district": "Tumakuru",
+    "state": "Karnataka",
+    "location": { "type": "Point", "coordinates": [77.1045, 13.3389] },
+    "phone": "0816-2274567",
+    "hours": "10:00 AM - 4:00 PM",
+    "verified": true
+  }
+]

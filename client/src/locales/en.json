@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Scheme-Saathi",
+    "tagline": "Discover your rightful government benefits with confidence",
+    "disclaimer": "Guidance only. Final eligibility is decided by the issuing department."
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore Schemes",
+    "ask": "Voice Assistant",
+    "scan": "Scan Documents",
+    "family": "Family Calculator",
+    "events": "Life Events",
+    "boards": "My Boards",
+    "tracker": "Application Tracker",
+    "scam": "Scam Shield",
+    "impact": "Impact Insights",
+    "centres": "Nearby Centres",
+    "about": "About & Privacy",
+    "admin": "Admin Desk"
+  },
+  "search": {
+    "placeholder": "Search schemes, benefits, or ask in your own words...",
+    "all_categories": "All Schemes",
+    "filters": "Filters",
+    "level": "Level",
+    "state": "State",
+    "central": "Central Govt",
+    "karnataka": "Karnataka State",
+    "sort_by": "Sort by",
+    "amount_high": "Benefit: High to Low",
+    "verified_recent": "Recently Verified"
+  },
+  "categories": {
+    "farmers": "Agriculture & Farmers",
+    "women": "Women & Child",
+    "students": "Education & Students",
+    "health": "Health & Medical",
+    "seniors": "Senior Citizens & Pension",
+    "housing": "Housing & Shelter",
+    "skills": "Skills & Jobs",
+    "disability": "Disability & Special Needs"
+  },
+  "eligibility": {
+    "eligible": "Eligible",
+    "maybe": "May Qualify",
+    "not_eligible": "Not Eligible",
+    "why_title": "Why You Qualify",
+    "unknown_title": "Information Needed",
+    "near_miss_title": "Near-Miss Opportunity",
+    "verify_status": "Verified Scheme",
+    "unverified_status": "Under Review (Unverified)",
+    "last_verified": "Last verified on",
+    "source_link": "Official Source Page",
+    "report_wrong": "Report incorrect info"
+  },
+  "voice": {
+    "listening": "Listening... Speak naturally in English, Kannada, or Hindi",
+    "tap_to_speak": "Tap to speak",
+    "stop_listening": "Stop listening",
+    "extracting": "Extracting your eligibility profile...",
+    "ask_followup": "Quick follow-up to check more schemes:",
+    "my_profile_pins": "Your Active Profile Pins",
+    "edit_pin": "Edit",
+    "read_aloud": "Read aloud",
+    "clear_profile": "Reset profile"
+  },
+  "document": {
+    "title": "Document Readiness Scanner",
+    "subtitle": "Check if your certificates are valid and ready. We process entirely in your browser memory.",
+    "upload_or_camera": "Upload or capture document",
+    "confirm_title": "Confirm Scanned Details",
+    "confirm_desc": "Please review extracted details. We mask sensitive identity numbers for your privacy.",
+    "valid": "Ready & Valid",
+    "expired": "Likely Expired",
+    "missing": "Missing Document"
+  },
+  "family": {
+    "title": "Family Benefit Calculator",
+    "subtitle": "Calculate combined entitlements across household members without duplicate counting.",
+    "add_member": "Add Family Member",
+    "total_annual": "Total Annual Entitlement",
+    "missing_annual": "Your family may be missing approx.",
+    "per_year": "per year",
+    "approx_note": "Calculations are up to / approximate based on verified department schedules."
+  },
+  "tracker": {
+    "title": "Application Kanban Tracker",
+    "not_started": "Not Started",
+    "documents_ready": "Documents Ready",
+    "applied": "Applied",
+    "approved": "Approved / Sanctioned",
+    "rejected": "Rejected",
+    "remind_telegram": "Get Reminders on Telegram",
+    "live_sync": "Live synced across your devices"
+  },
+  "scam": {
+    "title": "Scam Shield Advisory",
+    "notice": "Applying for government schemes is 100% free. Never pay agents, middlemen, or share OTPs.",
+    "input_placeholder": "Paste suspicious SMS, WhatsApp message, or scheme link here...",
+    "analyze_btn": "Check Message Safety",
+    "risk_safe": "Likely Legitimate",
+    "risk_suspicious": "Suspicious / Potential Scam",
+    "risk_danger": "High Scam Risk",
+    "disclaimer": "This analysis is advisory and deterministic. When in doubt, visit an official Seva Kendra."
+  },
+  "actions": {
+    "save": "Save",
+    "saved": "Saved",
+    "share": "Share",
+    "apply_now": "Apply on Official Portal",
+    "download_pdf": "Download PDF Checklist",
+    "locate_centres": "Find Nearby Seva Kendras",
+    "close": "Close",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "confirm": "Confirm & Continue"
+  }
+}

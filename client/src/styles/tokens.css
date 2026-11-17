@@ -1,0 +1,151 @@
+/* Scheme-Saathi Design System Tokens */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  /* Light Warm Palette */
+  --color-bg: #FBF8F3;
+  --color-card: #FFFFFF;
+  --color-card-elevated: #FFFDF9;
+  --color-ink: #1C1B19;
+  --color-muted: #6B675F;
+  --color-border: rgba(28, 27, 25, 0.08);
+  --color-border-hover: rgba(28, 27, 25, 0.16);
+
+  /* Brand Accents */
+  --color-primary: #1F6F5B;          /* Deep Teal-Green */
+  --color-primary-hover: #165646;
+  --color-primary-light: #E7F3EF;
+  --color-accent: #E8590C;           /* Saffron Accent */
+  --color-accent-light: #FDF1EA;
+  --color-accent-hover: #CC4A06;
+
+  /* Status Colors */
+  --color-success: #1B7A4B;
+  --color-success-light: #E7F6EE;
+  --color-warning: #B25E09;
+  --color-warning-light: #FEF6EB;
+  --color-danger: #C2342D;
+  --color-danger-light: #FDEEEE;
+
+  /* 8 Muted Pastel Category Colors */
+  --cat-farmers: #346845;
+  --cat-farmers-bg: #EAF3EC;
+  --cat-women: #9A3855;
+  --cat-women-bg: #FBEAF0;
+  --cat-students: #2552B5;
+  --cat-students-bg: #EAF0FC;
+  --cat-health: #177672;
+  --cat-health-bg: #E6F6F5;
+  --cat-seniors: #9B5A10;
+  --cat-seniors-bg: #FAF1E4;
+  --cat-housing: #A04423;
+  --cat-housing-bg: #FCECE6;
+  --cat-skills: #37474F;
+  --cat-skills-bg: #ECEFF1;
+  --cat-disability: #66418C;
+  --cat-disability-bg: #F2ECF9;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px -2px rgba(28, 27, 25, 0.05), 0 1px 4px -1px rgba(28, 27, 25, 0.03);
+  --shadow-md: 0 8px 24px -6px rgba(28, 27, 25, 0.08), 0 4px 12px -3px rgba(28, 27, 25, 0.04);
+  --shadow-lg: 0 16px 40px -10px rgba(28, 27, 25, 0.12), 0 8px 20px -5px rgba(28, 27, 25, 0.06);
+  --shadow-hover: 0 20px 32px -8px rgba(31, 111, 91, 0.16), 0 8px 16px -4px rgba(28, 27, 25, 0.06);
+
+  /* Curves */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-pill: 9999px;
+}
+
+/* Dark Mode Tokens */
+.dark {
+  --color-bg: #131211;
+  --color-card: #1C1B19;
+  --color-card-elevated: #232220;
+  --color-ink: #F7F5F0;
+  --color-muted: #A39F96;
+  --color-border: rgba(247, 245, 240, 0.1);
+  --color-border-hover: rgba(247, 245, 240, 0.2);
+
+  --color-primary: #329C81;
+  --color-primary-hover: #40B496;
+  --color-primary-light: rgba(50, 156, 129, 0.15);
+  --color-accent: #F26E29;
+  --color-accent-light: rgba(242, 110, 41, 0.15);
+  --color-accent-hover: #F98143;
+
+  --color-success: #32B376;
+  --color-success-light: rgba(50, 179, 118, 0.15);
+  --color-warning: #D9822B;
+  --color-warning-light: rgba(217, 130, 43, 0.15);
+  --color-danger: #E0524C;
+  --color-danger-light: rgba(224, 82, 76, 0.15);
+
+  --cat-farmers: #6BA87E;
+  --cat-farmers-bg: rgba(107, 168, 126, 0.15);
+  --cat-women: #D47592;
+  --cat-women-bg: rgba(212, 117, 146, 0.15);
+  --cat-students: #6C8EF8;
+  --cat-students-bg: rgba(108, 142, 248, 0.15);
+  --cat-health: #4DBBB4;
+  --cat-health-bg: rgba(77, 187, 180, 0.15);
+  --cat-seniors: #E5A454;
+  --cat-seniors-bg: rgba(229, 164, 84, 0.15);
+  --cat-housing: #E07857;
+  --cat-housing-bg: rgba(224, 120, 87, 0.15);
+  --cat-skills: #90A4AE;
+  --cat-skills-bg: rgba(144, 164, 174, 0.15);
+  --cat-disability: #A682D4;
+  --cat-disability-bg: rgba(166, 130, 212, 0.15);
+
+  --shadow-sm: 0 2px 8px -2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px -6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 16px 40px -10px rgba(0, 0, 0, 0.5);
+  --shadow-hover: 0 20px 32px -8px rgba(50, 156, 129, 0.25);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Kannada', 'Noto Sans Devanagari', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle background grain effect */
+.bg-grain {
+  background-image: radial-gradient(rgba(28, 27, 25, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+.dark .bg-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+}
+
+/* Masonry styles */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -16px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 16px;
+  background-clip: padding-box;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-hover);
+  border-radius: 9999px;
+}
